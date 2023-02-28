@@ -1,0 +1,49 @@
+.navbar-parent {
+    opacity: 1;
+    transform: rotate(90deg);
+    transform-origin: bottom left;
+    width: fit-content;
+}
+
+.navbar-nav {
+    background: transparent;
+    right: 7%;
+}
+
+.link {
+    margin: 0 10px;
+    font-size: 1.1rem;
+    font-weight: 550;
+    color: #efe8e8;
+    rotate: 180deg;
+}
+
+.link:hover {
+    color: #efe8e8;
+}
+
+.link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 10px;
+    left: 0px;
+    background-color: #eb2323;
+    color: #eb2323;
+    transform-origin: bottom right;
+    transition: transform 0.35s ease-out;
+}
+
+.link:hover:after {
+    transform: scaleX(1);
+    color: #eb2323 !important;
+    transform-origin: bottom left;
+}
+
+sup {
+    font-size: 0.7rem;
+}
+
+

@@ -1,0 +1,30 @@
+.aboutH1{
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Montagu Slab', serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15rem;
+    font-weight: 700;
+    position: relative;
+    float: left;   
+    bottom: -400px;
+    margin-left: 30px;
+    height: fit-content;
+    -webkit-text-stroke: 0.3px #eb2323;
+    -webkit-text-stroke-width: 1px;
+    color: transparent;  
+}
+
+
+.aboutH3{
+    position: relative;
+    right:107vh;
+    top: 650px;
+    font-size: 3rem;
+    color: aliceblue;
+}
+
+.aboutH3Span{
+    color: #eb2323;
+}
